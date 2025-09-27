@@ -56,7 +56,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.6 -c pytorch -c nvi
 
 ## 核心知识总结
 
-###ResNet模型关键要点
+### ResNet模型关键要点
 
 1. 解决的问题
 
@@ -124,7 +124,7 @@ print(f"梯度值: {x.grad}")  # 输出: tensor([2.])
 · 反向传播：计算梯度
 · 参数更新：优化模型权重
 
-####环境配置挑战
+#### 环境配置
 
 遇到的问题：PyTorch默认安装CPU版本
 解决方案：
